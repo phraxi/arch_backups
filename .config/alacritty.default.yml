@@ -284,8 +284,8 @@ colors:
   #
   # By default, these will use the opposing primary color.
   #line_indicator:
-  foreground: '#e9ff5e'
-  background: '#1d1f21'
+  #  foreground: None
+  #  background: None
 
   # Footer bar
   #
@@ -640,6 +640,7 @@ colors:
 #   - ToggleFullscreen
 #   - ToggleMaximized
 #   - SpawnNewInstance
+
 #       Spawn a new instance of Alacritty.
 #   - CreateNewWindow
 #       Create a new Alacritty window from the current process.
