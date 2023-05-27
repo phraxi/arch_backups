@@ -1,3 +1,4 @@
+meinpipiis
 acpilight
 alacritty
 alsa-utils
