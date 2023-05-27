@@ -52,6 +52,7 @@ qtile
 qtile-extras
 ranger
 rofi
+rust
 sudo
 sweet-gtk-theme-dark
 texlive-bibtexextra
