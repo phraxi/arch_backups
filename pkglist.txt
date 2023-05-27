@@ -1,4 +1,5 @@
 acpilight
+
 alacritty
 alsa-utils
 amd-ucode
