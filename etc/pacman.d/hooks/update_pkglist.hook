@@ -6,6 +6,5 @@ Target = *
 
 [Action]
 When = PostTransaction
-Exec = /bin/sh -c '/usr/bin/pacman -Qqe > /home/hodes/git/arch_backups/pkglist.txt'
-#Exec = /bin/sh -c 'git -C home/hodes/git/arch_backups/ add pkglist.txt'
-#Exec = /bin/sh -c 'git -C home/hodes/git/arch_backups/ commit -m 'Auto Update package list''
+#Exec = /bin/sh -c 'git pull'
+Exec = /bin/sh -c '/usr/bin/pacman -Qqe > /home/hodes/git/arch_backups/pkglist.txt && git -C home/hodes/git/arch_backups/ add pkglist.txt && git -C home/hodes/git/arch_backups/ commit -a -m "Auto Update package list" && git -C home/hodes/git/arch_backups/ push'
