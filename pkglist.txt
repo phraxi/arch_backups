@@ -19,7 +19,6 @@ git
 gnome-keyring
 gnome-themes-extra
 grub
-gtk-engines
 htop
 hyprland
 hyprpaper
@@ -130,3 +129,4 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 yay
+zuki-themes-git
