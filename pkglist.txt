@@ -1,4 +1,3 @@
-mein pipi
 acpilight
 alacritty
 alsa-utils
