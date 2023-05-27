@@ -23,7 +23,6 @@ htop
 hyprland
 hyprpaper
 iwd
-kitty
 libreoffice-still
 linux
 linux-firmware
@@ -130,4 +129,3 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 yay
-zuki-themes-git
