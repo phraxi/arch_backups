@@ -77,7 +77,6 @@ wireguard-tools
 wireless_tools
 xcursor-arch-simple
 xf86-video-vesa
-xfce-theme-bluebird
 xfce-theme-greybird
 xorg-bdftopcf
 xorg-docs
