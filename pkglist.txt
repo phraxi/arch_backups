@@ -1,3 +1,4 @@
+mein pipi
 acpilight
 alacritty
 alsa-utils
@@ -23,7 +24,6 @@ htop
 hyprland
 hyprpaper
 iwd
-kitty
 libreoffice-still
 linux
 linux-firmware
@@ -73,6 +73,7 @@ ttf-mononoki-nerd
 ttf-nerd-fonts-symbols
 ttf-nerd-fonts-symbols-mono
 vertex-themes
+vi
 virtualbox
 waybar
 wireguard-tools
