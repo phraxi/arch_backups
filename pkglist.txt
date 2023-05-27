@@ -33,6 +33,7 @@ lxappearance
 mate-themes
 materia-gtk-theme
 mesa
+moreutils
 nano
 neofetch
 networkmanager
