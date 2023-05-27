@@ -1,4 +1,4 @@
 #! /bin/bash
-echo "fishbone" | sudo -S pacman -Syu 
+echo "pw" | sudo -S pacman -Syu 
 git pull
 yay
