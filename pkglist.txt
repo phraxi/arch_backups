@@ -19,6 +19,7 @@ git
 gnome-keyring
 gnome-themes-extra
 grub
+gtk-engines
 htop
 hyprland
 hyprpaper
