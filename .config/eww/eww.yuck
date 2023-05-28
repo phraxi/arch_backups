@@ -1,0 +1,36 @@
+(defwindow powermenu
+  :stacking "bg"
+  :exclusive: true
+  :focusable: true
+  :windowtype "normal"
+  :monitor 0
+  :wm-ignore false
+  :geometry (geometry
+              :width "20%"
+              :height "20%")
+              :anchor "top"					
+  (powermenu_layout))
+                    
+  (defwidget powermenu_layout []
+  (label :text "Hello, World!"))
+
+(defwindow example
+           :monitor 0
+           :geometry (geometry :x "0%"
+                               :y "0px"
+                               :width "100%"
+                               :height "0px"
+                               :anchor "top center")
+           :stacking "fg"
+           :reserve (struts :distance "40px" :side "top")
+           :windowtype "dock"
+           :wm-ignore false
+  (greeter :text "Say Hello"
+           :name "Tim"))
+
+(defwidget greeter [?text name]
+  (box :orientation "horizontal"
+       :halign "center"
+    text
+    (button :onclick "notify-send 'Hello' 'Hello, ${name}'"
+      "Greet")))
