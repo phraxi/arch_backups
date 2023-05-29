@@ -52,6 +52,7 @@ qtile
 qtile-extras
 ranger
 rofi
+starship
 sudo
 sweet-gtk-theme-dark
 texlive-bibtexextra
