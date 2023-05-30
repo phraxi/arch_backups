@@ -23,6 +23,7 @@ htop
 hyprland
 hyprpaper
 iwd
+jq
 libreoffice-still
 linux
 linux-firmware
