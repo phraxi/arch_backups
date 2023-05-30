@@ -54,6 +54,7 @@ qtile
 qtile-extras
 ranger
 rofi
+socat
 starship
 sudo
 sweet-gtk-theme-dark
