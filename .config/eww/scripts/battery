@@ -1,0 +1,9 @@
+#! /bin/bash
+
+battery () {
+	cat /sys/class/power_supply/BAT1/capacity
+}
+
+if [["$1" == "--bat" ]]; then
+	battery
+fi
