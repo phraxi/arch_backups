@@ -1,4 +1,0 @@
-#! /bin/bash
-echo "fishbone" | sudo pacman -Syu 
-git -C ~/git/arch_backups/ pull
-#yay
