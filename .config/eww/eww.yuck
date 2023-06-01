@@ -2,7 +2,7 @@
 ;;;;;;;;;;;;;;;;; POLLS AND LISTENING VARS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(defpoll timelul :interval "10s"
+(defpoll time :interval "10s"
   "date '+%H:%M %b %d, %Y'")
 
 (defpoll month :interval "24h" 
@@ -17,9 +17,9 @@
 (defpoll minute :interval "10s"
   "date '+%M'")
  
-(deflisten workspaces :initial "[]" "bash ~/.config/eww/scripts/get-workspaces")
+(deflisten workspaces :initial "[]" "bash ~/.config/scripts/get_workspaces")
 
-(deflisten current_workspace :initial "1" "bash ~/.config/eww/scripts/get-active-workspace")
+(deflisten current_workspace :initial "1" "bash ~/.config/scripts/get_active_workspace")
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; WINDOWS ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -78,7 +78,7 @@
            :five " ")))
 
 (defwidget workspaces []
-  (eventbox :onscroll "bash ~/.config/eww/scripts/change-active-workspace {} ${current_workspace}" :class "workspaces-widget"
+  (eventbox :onscroll "bash ~/.config/scripts/change_active_workspace {} ${current_workspace}" :class "workspaces-widget"
     (box :class "workspace" :space-evenly true :spacing 4
       (label :text "${workspaces}${current_workspace}" :visible false)
       (for workspace in workspaces
@@ -105,5 +105,5 @@
 
 (defwidget time []
   (box :orientation "h" :class "time" 
-  (button :onclick "bash ~/.config/eww/scripts/openCalendar" timelul)))
+  (button :onclick "bash ~/.config/scripts/open_calendar" time)))
 
