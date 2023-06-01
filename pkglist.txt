@@ -72,7 +72,6 @@ texlive-pstricks
 texlive-publishers
 texlive-science
 texmaker
-ttf-font-awesome-5
 ttf-mononoki-nerd
 ttf-nerd-fonts-symbols
 ttf-nerd-fonts-symbols-mono
