@@ -1,0 +1,6 @@
+a=$(($(cat /sys/class/backlight/amdgpu_bl0/brightness)))
+b=$a.0 
+echo "$b" | awk '{print $0*100/255}'
+#echo $b
+#echo - | awk '{print $b / 2.5}'
+#echo $a

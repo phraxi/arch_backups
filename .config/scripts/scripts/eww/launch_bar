@@ -1,0 +1,10 @@
+#!/bin/bash
+# Opens eww calendar
+
+#EWW_BIN="~/eww/target/release/eww"
+
+# Run eww daemon if not running
+~/eww/target/release/eww daemon
+sleep 1
+~/eww/target/release/eww open top
+
