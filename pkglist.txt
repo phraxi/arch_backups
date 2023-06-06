@@ -46,6 +46,7 @@ oxygen-cursors
 pcmanfm
 picom
 pipewire
+powertop
 pulseaudio
 pulseaudio-alsa
 python
