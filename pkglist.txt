@@ -6,6 +6,7 @@ arc-solid-gtk-theme
 base
 base-devel
 bluez
+bluez-utils
 breeze-gtk
 candy-icons-git
 code
