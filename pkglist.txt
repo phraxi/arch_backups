@@ -59,6 +59,7 @@ qtile-extras
 ranger
 rofi
 socat
+speedtest-cli
 starship
 sudo
 sweet-gtk-theme-dark
