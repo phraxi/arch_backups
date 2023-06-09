@@ -52,6 +52,7 @@ pipewire
 powertop
 pulseaudio
 pulseaudio-alsa
+pulseaudio-bluetooth
 python
 python-pip
 python-virtualenv
