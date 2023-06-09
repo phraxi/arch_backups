@@ -5,7 +5,6 @@ amd-ucode
 arc-solid-gtk-theme
 base
 base-devel
-bc
 bluez
 breeze-gtk
 candy-icons-git
