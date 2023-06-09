@@ -24,6 +24,7 @@ grub
 htop
 hyprland
 hyprpaper
+ifstat
 iwd
 jq
 libreoffice-still
