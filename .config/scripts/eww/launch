@@ -1,0 +1,37 @@
+#x! /bin/bash
+
+# Run eww daemon if not running
+
+check_daemon(){
+if [[ ! `pidof eww` ]]; then
+    ~/eww/target/release/eww daemon
+    sleep 1
+fi
+}
+
+topbar(){
+    ~/eww/target/release/eww open top
+}
+
+powermenu(){
+#create lock file to tell if overlay is closen or not
+LOCK_FILE="$HOME/.cache/eww-overlay.lock"
+#EWW_BIN="~/eww/target/release/eww"
+
+run() {
+    ~/eww/target/release/eww open-many shutdown reboot exit_hypr
+}
+
+
+# Open widgets
+if [[ ! -f "$LOCK_FILE" ]]; then
+    touch "$LOCK_FILE"
+    run
+else
+    ~/eww/target/release/eww close shutdown reboot exit_hypr
+    rm "$LOCK_FILE"
+fi
+}
+
+check_daemon && [ "$1" = "powermenu" ] && powermenu && exit
+check_daemon && [ "$1" = "topbar" ] && topbar && exit
