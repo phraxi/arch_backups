@@ -17,6 +17,7 @@ dunst
 efibootmgr
 evince
 firefox
+gimp
 git
 gnome-keyring
 gnome-themes-extra
