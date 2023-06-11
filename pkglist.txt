@@ -12,7 +12,6 @@ candy-icons-git
 code
 deepin-gtk-theme
 deepin-icon-theme
-deepin-image-viewer
 dropbox
 dunst
 efibootmgr
