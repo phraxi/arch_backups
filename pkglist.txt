@@ -83,6 +83,7 @@ texlive-publishers
 texlive-science
 texmaker
 tlp
+tlpui
 ttf-mononoki-nerd
 ttf-nerd-fonts-symbols
 ttf-nerd-fonts-symbols-mono
