@@ -1,0 +1,13 @@
+2023-06-14 12:19:23.587 [info] Extension host with pid 53099 started
+2023-06-14 12:19:23.587 [info] Skipping acquiring lock for /home/hodes/.config/Code - OSS/User/workspaceStorage/dd5ff8b344125a76b65df5c42f782506.
+2023-06-14 12:19:28.567 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-06-14 12:19:28.630 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2023-06-14 12:19:30.865 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2023-06-14 12:19:31.898 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-06-14 12:19:32.329 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-06-14 12:19:34.498 [info] Eager extensions activated
+2023-06-14 12:19:35.999 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-06-14 12:19:36.052 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-06-14 12:19:36.422 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2023-06-14 12:19:37.827 [info] ExtensionService#_doActivateExtension waderyan.gitblame, startup: false, activationEvent: 'onStartupFinished'
+2023-06-14 12:19:47.133 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'

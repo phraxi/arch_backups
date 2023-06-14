@@ -1,0 +1,21 @@
+{
+    "workbench.colorTheme": "Abyss",
+    "editor.fontFamily": "Mononoki Nerd,",
+    "terminal.external.linuxExec": "alacritty",
+    "workbench.preferredDarkColorTheme": "Abyss",
+    "workbench.colorCustomizations": {
+        "[Abyss]": {
+            "editor.background": "#191d36"},
+        "[Default High Contrast]": {
+            "editor.background": "#191d36",
+        },
+        "[Monokai]": {"editor.background": "#191d36"}
+    },
+    "editor.tokenColorCustomizations": {
+        "[Abyss]": {"types": "#ffed82","comments": "#c0bd5e"}
+    },
+    "editor.semanticTokenColorCustomizations": {},
+    "git.autofetch": true,
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.macOptionClickForcesSelection": true,
+}

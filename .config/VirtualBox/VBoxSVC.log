@@ -1,0 +1,238 @@
+00:00:00.038254 main     VirtualBox XPCOM Server 7.0.8 r156879 linux.amd64 (Apr 18 2023 21:49:14) release log
+00:00:00.038260 main     Log opened 2023-05-16T15:28:55.831671000Z
+00:00:00.038262 main     Build Type: release
+00:00:00.038267 main     OS Product: Linux
+00:00:00.038270 main     OS Release: 6.3.1-arch2-1
+00:00:00.038272 main     OS Version: #1 SMP PREEMPT_DYNAMIC Wed, 10 May 2023 08:54:47 +0000
+00:00:00.038324 main     DMI Product Name: HP 255 G6 Notebook PC
+00:00:00.038351 main     DMI Product Version: Type1ProductConfigId
+00:00:00.038382 main     Firmware type: UEFI
+00:00:00.038773 main     Secure Boot: Disabled
+00:00:00.038910 main     Host RAM: 3806MB (3.7GB) total, 969MB available
+00:00:00.038919 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.038921 main     Process ID: 12032
+00:00:00.038922 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.042135 main     IPC socket path: /tmp/.vbox-hodes-ipc/ipcd
+00:00:00.322680 nspr-2   VirtualBox: object creation starts
+00:00:00.429580 nspr-2   Home directory: '/home/hodes/.config/VirtualBox'
+00:00:00.629753 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.633131 nspr-2   HostDnsMonitor: initializing
+00:00:00.633488 nspr-2   NAT: resolv.conf: nameserver 141.26.64.60
+00:00:00.633519 nspr-2   HostDnsMonitor: updating information
+00:00:00.633540 nspr-2   HostDnsMonitor: old information
+00:00:00.633546 nspr-2     no server entries
+00:00:00.633551 nspr-2     no domain set
+00:00:00.633556 nspr-2     no search string entries
+00:00:00.633561 nspr-2   HostDnsMonitor: new information
+00:00:00.633565 nspr-2     server 1: 141.26.64.60
+00:00:00.633570 nspr-2     domain: uni-koblenz.de
+00:00:00.633575 nspr-2     search string 1: uni-koblenz.de
+00:00:00.682349 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.706453 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.714936 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={aac6c7cb-a371-4c58-ab51-0616896b2f2c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.716736 nspr-2   VirtualBox: object created
+00:00:03.666110 nspr-2   Saving settings file "/home/hodes/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:03.804008 nspr-2   Finished saving settings file "/home/hodes/.config/VirtualBox/VirtualBox.xml"
+00:00:04.173476 nspr-4   Saving settings file "/home/hodes/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:04.360253 nspr-4   Finished saving settings file "/home/hodes/.config/VirtualBox/VirtualBox.xml"
+00:00:04.801998 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e54f6256-97a7-4947-8a78-10c013ddf4b8} aComponent={HostWrap} aText={Could not load the Host USB Proxy service: VERR_NOT_FOUND}, preserve=false aResultDetail=0
+00:00:05.743668 nspr-4   Saving settings file "/home/hodes/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:05.818637 nspr-4   Finished saving settings file "/home/hodes/.config/VirtualBox/VirtualBox.xml"
+00:00:10.867490 nspr-4   Saving settings file "/home/hodes/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:10.942198 nspr-4   Finished saving settings file "/home/hodes/.config/VirtualBox/VirtualBox.xml"
+00:00:56.238069 dns-monitor NAT: resolv.conf: nameserver 141.26.64.60
+00:00:56.277578 dns-monitor NAT: resolv.conf: nameserver 2001:4c80:50:1::403c
+00:00:56.277639 dns-monitor HostDnsMonitor: updating information
+00:00:56.277680 dns-monitor HostDnsMonitor: old information
+00:00:56.277687 dns-monitor   server 1: 141.26.64.60
+00:00:56.277694 dns-monitor   domain: uni-koblenz.de
+00:00:56.277699 dns-monitor   search string 1: uni-koblenz.de
+00:00:56.277704 dns-monitor HostDnsMonitor: new information
+00:00:56.277709 dns-monitor   server 1: 141.26.64.60
+00:00:56.277714 dns-monitor   server 2: 2001:4c80:50:1::403c
+00:00:56.277719 dns-monitor   domain: uni-koblenz.de
+00:00:56.277756 dns-monitor   search string 1: uni-koblenz.de
+00:01:56.224605 dns-monitor NAT: resolv.conf: nameserver 141.26.64.60
+00:01:56.259679 dns-monitor HostDnsMonitor: updating information
+00:01:56.259734 dns-monitor HostDnsMonitor: old information
+00:01:56.259742 dns-monitor   server 1: 141.26.64.60
+00:01:56.259751 dns-monitor   server 2: 2001:4c80:50:1::403c
+00:01:56.259758 dns-monitor   domain: uni-koblenz.de
+00:01:56.259763 dns-monitor   search string 1: uni-koblenz.de
+00:01:56.259769 dns-monitor HostDnsMonitor: new information
+00:01:56.259775 dns-monitor   server 1: 141.26.64.60
+00:01:56.259780 dns-monitor   domain: uni-koblenz.de
+00:01:56.259786 dns-monitor   search string 1: uni-koblenz.de
+00:02:14.729585 dns-monitor NAT: resolv.conf: nameserver 141.26.64.60
+00:02:14.729630 dns-monitor NAT: resolv.conf: nameserver 2001:4c80:50:1::403c
+00:02:14.729654 dns-monitor HostDnsMonitor: updating information
+00:02:14.729662 dns-monitor HostDnsMonitor: old information
+00:02:14.729667 dns-monitor   server 1: 141.26.64.60
+00:02:14.729675 dns-monitor   domain: uni-koblenz.de
+00:02:14.729680 dns-monitor   search string 1: uni-koblenz.de
+00:02:14.729686 dns-monitor HostDnsMonitor: new information
+00:02:14.729691 dns-monitor   server 1: 141.26.64.60
+00:02:14.729696 dns-monitor   server 2: 2001:4c80:50:1::403c
+00:02:14.729701 dns-monitor   domain: uni-koblenz.de
+00:02:14.729706 dns-monitor   search string 1: uni-koblenz.de
+00:03:14.966308 dns-monitor NAT: resolv.conf: nameserver 141.26.64.60
+00:03:15.009531 dns-monitor HostDnsMonitor: updating information
+00:03:15.009670 dns-monitor HostDnsMonitor: old information
+00:03:15.009679 dns-monitor   server 1: 141.26.64.60
+00:03:15.009689 dns-monitor   server 2: 2001:4c80:50:1::403c
+00:03:15.009697 dns-monitor   domain: uni-koblenz.de
+00:03:15.009738 dns-monitor   search string 1: uni-koblenz.de
+00:03:15.009746 dns-monitor HostDnsMonitor: new information
+00:03:15.009753 dns-monitor   server 1: 141.26.64.60
+00:03:15.009760 dns-monitor   domain: uni-koblenz.de
+00:03:15.009766 dns-monitor   search string 1: uni-koblenz.de
+00:04:10.343304 dns-monitor NAT: resolv.conf: nameserver 141.26.64.60
+00:04:10.412210 dns-monitor NAT: resolv.conf: nameserver 2001:4c80:50:1::403c
+00:04:10.412266 dns-monitor HostDnsMonitor: updating information
+00:04:10.412309 dns-monitor HostDnsMonitor: old information
+00:04:10.412318 dns-monitor   server 1: 141.26.64.60
+00:04:10.412328 dns-monitor   domain: uni-koblenz.de
+00:04:10.412335 dns-monitor   search string 1: uni-koblenz.de
+00:04:10.412343 dns-monitor HostDnsMonitor: new information
+00:04:10.412350 dns-monitor   server 1: 141.26.64.60
+00:04:10.412357 dns-monitor   server 2: 2001:4c80:50:1::403c
+00:04:10.412364 dns-monitor   domain: uni-koblenz.de
+00:04:10.412371 dns-monitor   search string 1: uni-koblenz.de
+00:05:10.492094 dns-monitor NAT: resolv.conf: nameserver 141.26.64.60
+00:05:10.571773 dns-monitor HostDnsMonitor: updating information
+00:05:10.572019 dns-monitor HostDnsMonitor: old information
+00:05:10.572028 dns-monitor   server 1: 141.26.64.60
+00:05:10.572037 dns-monitor   server 2: 2001:4c80:50:1::403c
+00:05:10.572044 dns-monitor   domain: uni-koblenz.de
+00:05:10.572049 dns-monitor   search string 1: uni-koblenz.de
+00:05:10.572055 dns-monitor HostDnsMonitor: new information
+00:05:10.572060 dns-monitor   server 1: 141.26.64.60
+00:05:10.572066 dns-monitor   domain: uni-koblenz.de
+00:05:10.572071 dns-monitor   search string 1: uni-koblenz.de
+00:06:12.347441 dns-monitor NAT: resolv.conf: nameserver 141.26.64.60
+00:06:12.375317 dns-monitor NAT: resolv.conf: nameserver 2001:4c80:50:1::403c
+00:06:12.375366 dns-monitor HostDnsMonitor: updating information
+00:06:12.375401 dns-monitor HostDnsMonitor: old information
+00:06:12.375408 dns-monitor   server 1: 141.26.64.60
+00:06:12.375415 dns-monitor   domain: uni-koblenz.de
+00:06:12.375421 dns-monitor   search string 1: uni-koblenz.de
+00:06:12.375427 dns-monitor HostDnsMonitor: new information
+00:06:12.375431 dns-monitor   server 1: 141.26.64.60
+00:06:12.375437 dns-monitor   server 2: 2001:4c80:50:1::403c
+00:06:12.375462 dns-monitor   domain: uni-koblenz.de
+00:06:12.375468 dns-monitor   search string 1: uni-koblenz.de
+00:07:12.265278 dns-monitor NAT: resolv.conf: nameserver 141.26.64.60
+00:07:12.265358 dns-monitor HostDnsMonitor: updating information
+00:07:12.265410 dns-monitor HostDnsMonitor: old information
+00:07:12.265420 dns-monitor   server 1: 141.26.64.60
+00:07:12.265432 dns-monitor   server 2: 2001:4c80:50:1::403c
+00:07:12.265442 dns-monitor   domain: uni-koblenz.de
+00:07:12.265452 dns-monitor   search string 1: uni-koblenz.de
+00:07:12.265462 dns-monitor HostDnsMonitor: new information
+00:07:12.265470 dns-monitor   server 1: 141.26.64.60
+00:07:12.265480 dns-monitor   domain: uni-koblenz.de
+00:07:12.265488 dns-monitor   search string 1: uni-koblenz.de
+00:07:35.202063 dns-monitor NAT: resolv.conf: nameserver 141.26.64.60
+00:07:35.202109 dns-monitor NAT: resolv.conf: nameserver 2001:4c80:50:1::403c
+00:07:35.202135 dns-monitor HostDnsMonitor: updating information
+00:07:35.202143 dns-monitor HostDnsMonitor: old information
+00:07:35.202150 dns-monitor   server 1: 141.26.64.60
+00:07:35.202157 dns-monitor   domain: uni-koblenz.de
+00:07:35.202163 dns-monitor   search string 1: uni-koblenz.de
+00:07:35.202170 dns-monitor HostDnsMonitor: new information
+00:07:35.202175 dns-monitor   server 1: 141.26.64.60
+00:07:35.202181 dns-monitor   server 2: 2001:4c80:50:1::403c
+00:07:35.202187 dns-monitor   domain: uni-koblenz.de
+00:07:35.202192 dns-monitor   search string 1: uni-koblenz.de
+00:09:14.799884 dns-monitor NAT: resolv.conf: nameserver 141.26.64.60
+00:09:14.799940 dns-monitor HostDnsMonitor: updating information
+00:09:14.799982 dns-monitor HostDnsMonitor: old information
+00:09:14.799992 dns-monitor   server 1: 141.26.64.60
+00:09:14.800002 dns-monitor   server 2: 2001:4c80:50:1::403c
+00:09:14.800011 dns-monitor   domain: uni-koblenz.de
+00:09:14.800018 dns-monitor   search string 1: uni-koblenz.de
+00:09:14.800027 dns-monitor HostDnsMonitor: new information
+00:09:14.800035 dns-monitor   server 1: 141.26.64.60
+00:09:14.800043 dns-monitor   domain: uni-koblenz.de
+00:09:14.800050 dns-monitor   search string 1: uni-koblenz.de
+00:10:12.195516 dns-monitor NAT: resolv.conf: nameserver 141.26.64.60
+00:10:12.224687 dns-monitor NAT: resolv.conf: nameserver 2001:4c80:50:1::403c
+00:10:12.224741 dns-monitor HostDnsMonitor: updating information
+00:10:12.224778 dns-monitor HostDnsMonitor: old information
+00:10:12.224786 dns-monitor   server 1: 141.26.64.60
+00:10:12.224795 dns-monitor   domain: uni-koblenz.de
+00:10:12.224802 dns-monitor   search string 1: uni-koblenz.de
+00:10:12.224809 dns-monitor HostDnsMonitor: new information
+00:10:12.224815 dns-monitor   server 1: 141.26.64.60
+00:10:12.224821 dns-monitor   server 2: 2001:4c80:50:1::403c
+00:10:12.224828 dns-monitor   domain: uni-koblenz.de
+00:10:12.224833 dns-monitor   search string 1: uni-koblenz.de
+00:11:24.389030 dns-monitor NAT: resolv.conf: nameserver 141.26.64.60
+00:11:24.389083 dns-monitor HostDnsMonitor: updating information
+00:11:24.389121 dns-monitor HostDnsMonitor: old information
+00:11:24.389131 dns-monitor   server 1: 141.26.64.60
+00:11:24.389140 dns-monitor   server 2: 2001:4c80:50:1::403c
+00:11:24.389148 dns-monitor   domain: uni-koblenz.de
+00:11:24.389154 dns-monitor   search string 1: uni-koblenz.de
+00:11:24.389162 dns-monitor HostDnsMonitor: new information
+00:11:24.389169 dns-monitor   server 1: 141.26.64.60
+00:11:24.389176 dns-monitor   domain: uni-koblenz.de
+00:11:24.389183 dns-monitor   search string 1: uni-koblenz.de
+00:12:28.197508 dns-monitor NAT: resolv.conf: nameserver 141.26.64.60
+00:12:28.197570 dns-monitor NAT: resolv.conf: nameserver 2001:4c80:50:1::403c
+00:12:28.197605 dns-monitor HostDnsMonitor: updating information
+00:12:28.197662 dns-monitor HostDnsMonitor: old information
+00:12:28.197676 dns-monitor   server 1: 141.26.64.60
+00:12:28.197689 dns-monitor   domain: uni-koblenz.de
+00:12:28.197700 dns-monitor   search string 1: uni-koblenz.de
+00:12:28.197712 dns-monitor HostDnsMonitor: new information
+00:12:28.197722 dns-monitor   server 1: 141.26.64.60
+00:12:28.197757 dns-monitor   server 2: 2001:4c80:50:1::403c
+00:12:28.197770 dns-monitor   domain: uni-koblenz.de
+00:12:28.197780 dns-monitor   search string 1: uni-koblenz.de
+00:15:04.377825 dns-monitor NAT: resolv.conf: nameserver 141.26.64.60
+00:15:04.377899 dns-monitor HostDnsMonitor: updating information
+00:15:04.377955 dns-monitor HostDnsMonitor: old information
+00:15:04.377969 dns-monitor   server 1: 141.26.64.60
+00:15:04.377982 dns-monitor   server 2: 2001:4c80:50:1::403c
+00:15:04.377995 dns-monitor   domain: uni-koblenz.de
+00:15:04.378005 dns-monitor   search string 1: uni-koblenz.de
+00:15:04.378017 dns-monitor HostDnsMonitor: new information
+00:15:04.378026 dns-monitor   server 1: 141.26.64.60
+00:15:04.378037 dns-monitor   domain: uni-koblenz.de
+00:15:04.378047 dns-monitor   search string 1: uni-koblenz.de
+00:15:58.229975 dns-monitor NAT: resolv.conf: nameserver 141.26.64.60
+00:15:58.230034 dns-monitor NAT: resolv.conf: nameserver 2001:4c80:50:1::403c
+00:15:58.230079 dns-monitor HostDnsMonitor: updating information
+00:15:58.230134 dns-monitor HostDnsMonitor: old information
+00:15:58.230147 dns-monitor   server 1: 141.26.64.60
+00:15:58.230161 dns-monitor   domain: uni-koblenz.de
+00:15:58.230171 dns-monitor   search string 1: uni-koblenz.de
+00:15:58.230183 dns-monitor HostDnsMonitor: new information
+00:15:58.230193 dns-monitor   server 1: 141.26.64.60
+00:15:58.230204 dns-monitor   server 2: 2001:4c80:50:1::403c
+00:15:58.230215 dns-monitor   domain: uni-koblenz.de
+00:15:58.230225 dns-monitor   search string 1: uni-koblenz.de
+00:16:58.224547 dns-monitor NAT: resolv.conf: nameserver 141.26.64.60
+00:16:58.224621 dns-monitor HostDnsMonitor: updating information
+00:16:58.224675 dns-monitor HostDnsMonitor: old information
+00:16:58.224688 dns-monitor   server 1: 141.26.64.60
+00:16:58.224701 dns-monitor   server 2: 2001:4c80:50:1::403c
+00:16:58.224714 dns-monitor   domain: uni-koblenz.de
+00:16:58.224724 dns-monitor   search string 1: uni-koblenz.de
+00:16:58.224736 dns-monitor HostDnsMonitor: new information
+00:16:58.224746 dns-monitor   server 1: 141.26.64.60
+00:16:58.224756 dns-monitor   domain: uni-koblenz.de
+00:16:58.224766 dns-monitor   search string 1: uni-koblenz.de
+00:17:55.231020 dns-monitor NAT: resolv.conf: nameserver 141.26.64.60
+00:17:55.231646 dns-monitor NAT: resolv.conf: nameserver 2001:4c80:50:1::403c
+00:17:55.231696 dns-monitor HostDnsMonitor: updating information
+00:17:55.231746 dns-monitor HostDnsMonitor: old information
+00:17:55.231757 dns-monitor   server 1: 141.26.64.60
+00:17:55.231770 dns-monitor   domain: uni-koblenz.de
+00:17:55.231779 dns-monitor   search string 1: uni-koblenz.de
+00:17:55.231789 dns-monitor HostDnsMonitor: new information
+00:17:55.231797 dns-monitor   server 1: 141.26.64.60
+00:17:55.231807 dns-monitor   server 2: 2001:4c80:50:1::403c
+00:17:55.231816 dns-monitor   domain: uni-koblenz.de
+00:17:55.231824 dns-monitor   search string 1: uni-koblenz.de

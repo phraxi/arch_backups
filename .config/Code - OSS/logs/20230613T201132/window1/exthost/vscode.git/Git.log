@@ -1,0 +1,22 @@
+2023-06-13 20:12:24.209 [info] Log level: Info
+2023-06-13 20:12:24.209 [info] Validating found git in: "git"
+2023-06-13 20:12:24.209 [info] Using git "2.41.0" from "git"
+2023-06-13 20:12:24.209 [info] > git rev-parse --show-toplevel [133ms]
+2023-06-13 20:12:24.209 [info] > git rev-parse --git-dir --git-common-dir [26ms]
+2023-06-13 20:12:24.209 [info] Open repository: /home/hodes/git/arch_backups
+2023-06-13 20:12:24.209 [info] > git rev-parse --show-toplevel [127ms]
+2023-06-13 20:12:24.209 [info] > git rev-parse --show-toplevel [37ms]
+2023-06-13 20:12:24.209 [info] > git config --get commit.template [283ms]
+2023-06-13 20:12:24.209 [info] > git rev-parse --show-toplevel [139ms]
+2023-06-13 20:12:24.209 [info] > git rev-parse --show-toplevel [102ms]
+2023-06-13 20:12:24.209 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [223ms]
+2023-06-13 20:12:24.209 [info] > git status -z -uall --find-renames=50% [81ms]
+2023-06-13 20:12:24.209 [info] > git config --get commit.template [133ms]
+2023-06-13 20:12:24.209 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [70ms]
+2023-06-13 20:12:24.209 [info] > git status -z -uall --find-renames=50% [90ms]
+2023-06-13 20:12:24.209 [info] > git fetch [1926ms]
+2023-06-13 20:12:24.209 [info] > git config --get commit.template [91ms]
+2023-06-13 20:12:24.209 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1090ms]
+2023-06-13 20:12:24.209 [info] > git status -z -uall --find-renames=50% [138ms]
+2023-06-13 20:12:24.209 [info] > git check-ignore -v -z --stdin [236ms]
+2023-06-13 20:16:21.589 [info] > git check-ignore -v -z --stdin [38ms]

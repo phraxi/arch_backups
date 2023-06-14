@@ -1,0 +1,108 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;; POLLS AND LISTENING VARS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;load eww into path
+;;(defvar eww "~/eww/target/release/eww -c ~/.config/eww")
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; WINDOWS ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+(defwindow shutdown
+    :monitor 0
+    :geometry (geometry :x "20%" :y "17%" :width "4%" :height "5%"
+                        :anchor "bottom left")
+    :stacking "fg"
+    (shutdown))
+
+(defwindow reboot
+    :monitor 0
+    :geometry (geometry :x "25%" :y "17%" :width "4%" :height "5%"
+                       :anchor "bottom left")
+   :stacking "fg"
+   (reboot))
+
+(defwindow exit_hypr
+    :monitor 0
+    :geometry (geometry :x "20%" :y "10%" :width "4%" :height "5%"
+                       :anchor "bottom left")
+    :stacking "fg"
+    (exit_hypr))
+
+(defwindow suspend
+    :monitor 0
+    :geometry (geometry :x "25%" :y "10%" :width "4%" :height "5%"
+                       :anchor "bottom left")
+    :stacking "fg"
+    (suspend))
+
+(defwindow apps
+    :monitor 0
+    :geometry (geometry :x "30%" :y "10%" :width "0%" :height "12%"
+                       :anchor "bottom left")
+    :stacking "fg"
+    (launchbar))
+
+    
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; WIDGETS ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(defwidget shutdown []
+  (box :orientation "h"
+    (button :class "shutdown-icon" :onclick "shutdown now"
+    (label :text ""))))
+
+(defwidget reboot []
+  (box :orientation "h" :class "reboot"
+    (button :class "reboot-icon" :onclick "reboot"
+    (label :text ""))))
+
+(defwidget exit_hypr []
+  (box :orientation "h" :class "exit"
+    (button :class "exit-icon" :onclick "hyprctl dispatch exit hypr"
+    (label :text "󰿅"))))
+
+(defwidget suspend []
+  (box :orientation "h" :class "suspend"
+    (button :class "suspend-icon" :onclick "systemctl suspend"
+    (label :text "󰒲"))))
+
+(defwidget launchbar []
+  (box :class "launchbar" :orientation "v"
+    (box :class "launchbar-apps" :space-evenly "false" :spacing 6  
+         :orientation "h" (children :nth 0) 
+      (button :class "firefox" :onclick "hyprctl dispatch exec firefox"
+         (image :path "images/firefox.png"))
+      (button :class "code" :onclick "hyprctl dispatch exec code"
+         (image :path "images/code.png"))
+      (button :class "dropbox" :onclick "pcmanfm ~/Dropbox"
+         (image :path "images/dropbox.png"))
+      (button :class "latex" :onclick "hyprctl dispatch exec texmaker"
+         (image :class "latex-icon" :path "images/latex.png"))
+      (button :class "music" :class "music"
+        (label :text "music" :class "music-icon"))
+      (button :class "gimp" :onclick "hyprctl dispatch exec gimp"
+        (image :class "gimp-icon" :path "images/gimp.png")))
+    (box :class "launchbar_web" :orientation "h" :space-evenly "false" :spacing 6 (children :nth 1)
+       (button :class "git" :onclick "hyprctl dispatch exec 'firefox --new-window https://github.com/'"
+         (image :class "git-icon" :path "images/github.png"))
+      (button :class "yt" :onclick "hyprctl dispatch exec 'firefox --new-window https://youtube.com/'"
+         (image :class "yt-icon" :path "images/youtube.png"))
+      (button :class "gmail" :onclick "code"
+        (image :class "gmail-icon" :path "images/gmail.png"))
+      (button :class "sogo" :onclick "sogo"
+        (label :text "sogo" :class "sogo-icon"))
+      (button :class "gmx" :onclick "gmx"
+        (image :class "gmx-icon" :path "images/gmx.png"))
+      (button :class "archwiki" :onclick "archwiki"
+       (image :class "arch-icon" :path "images/arch.png")))
+    (box :class "other" :space-evenly "false" :spacing 6 (children :nth 2)
+      (button :class "pcmanfm" :onclick "hyprctl dispatch exec pcmanfm"
+        (label :text "pcmanfm" :class "pcmanfm-icon"))
+      (button :class "htop" :onclick "hyprctl dispatch exec firefox"
+        (image :path "images/code2.png")))))

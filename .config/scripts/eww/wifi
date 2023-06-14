@@ -1,0 +1,39 @@
+#!/bin/sh
+
+is_up() {
+if [[ $(cat /sys/class/net/w*/operstate) == "up" ]]; then
+  echo true
+else
+    echo false
+fi 
+}
+
+name() {
+nmcli | grep "^wlan0" | sed 's/\ connected\ to\ /Connected to /g' | cut -d ':' -f2
+}
+
+strength() {
+interface=$(iwconfig 2>/dev/null | awk '/^[[:alnum:]]/{print $1; exit}')
+if [[ -z "$interface" ]]; then
+  echo "No wireless interface found."
+  exit 
+fi
+
+signal_level=$(iwconfig "$interface" 2>/dev/null | awk -F'[ =]+' '/Signal level/{print $4}')
+
+if [[ -z "$signal_level" ]]; then
+  echo "Failed to get signal level."
+  exit 
+fi
+
+echo "$signal_level dBm"
+}
+
+[ "$1" = "is_up" ] && is_up && exit
+[ "$1" = "name" ] && name && exit 
+[ "$1" = "strength" ] && strength && exit
+[ "$1" = "dl_rate" ] && dl_rate && exit 
+[ "$1" = "nmtui" ] && alacritty -e nmtui
+
+
+
