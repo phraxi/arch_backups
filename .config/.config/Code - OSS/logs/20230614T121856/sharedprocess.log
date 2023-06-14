@@ -1,0 +1,8 @@
+2023-06-14 12:19:54.131 [info] Getting Manifest... ms-python.python
+2023-06-14 12:19:55.175 [info] Installing extension: ms-python.python
+2023-06-14 12:20:04.198 [info] Extension signature verification is not done: ms-python.python
+2023-06-14 12:20:19.282 [info] Extracted extension to /home/hodes/.vscode-oss/extensions/.47542343-6f2e-4bf8-8478-d6285334f36d: ms-python.python
+2023-06-14 12:20:19.381 [info] Renamed to /home/hodes/.vscode-oss/extensions/ms-python.python-2023.10.1-universal
+2023-06-14 12:20:19.411 [info] Extracting extension completed. ms-python.python
+2023-06-14 12:20:19.500 [info] Extension installed successfully: ms-python.python
+2023-06-14 12:20:19.589 [info] Marked extension as uninstalled ms-python.python-2023.10.0-universal

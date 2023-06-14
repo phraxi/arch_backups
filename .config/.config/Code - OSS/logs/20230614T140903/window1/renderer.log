@@ -1,0 +1,11 @@
+2023-06-14 14:09:10.977 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, envShellEvent, testObserver, quickPickItemTooltip, envCollectionWorkspace, saveEditor, envCollectionOptions'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2023-06-14 14:09:11.882 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2023-06-14 14:09:13.388 [error] Handler already set!: Error: Handler already set!
+    at g.setHandler (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1514:1951)
+    at e.WalkthroughsService.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1969:16266)
+    at async e.WalkthroughsService.getWalkthroughs (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1969:21346)
+    at async Xu.hc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2520:71151)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2520:60801
+2023-06-14 14:09:25.292 [info] The pty host became responsive again
+2023-06-14 14:09:36.309 [info] [perf] Render performance baseline is 146ms
+2023-06-14 14:09:40.044 [info] Unable to reload {0}: {1} file:///home/hodes/.vscode-oss/extensions/dlasagno.wal-theme-1.1.2-universal/themes/wal-bordered.json
