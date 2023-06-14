@@ -1,3 +1,0 @@
-;;(defvar eww "~/eww/target/release/eww -c ~/.config/eww") 
-(include "./overlay/eww.yuck") 
-(include "./topbar/eww.yuck")

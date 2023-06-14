@@ -1,4 +1,0 @@
-#! /bin/bash
-
-curr = echo 'pimmel'
-echo "Mein Giott $curr"
