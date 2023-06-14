@@ -1,7 +1,5 @@
 #! /bin/bash
 
-
-
 #path to wallpaper folder
 bg_folder_path="/home/hodes/wallpapers/bg_images"
 current_bg="/home/hodes/wallpapers/current.txt"
