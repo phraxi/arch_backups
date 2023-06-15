@@ -9,8 +9,15 @@ if [[ ! `pidof eww` ]]; then
 fi
 }
 
-topbar(){
-    ~/eww/target/release/eww open top
+top(){
+    LOCK_FILE="$HOME/.cache/eww-top.lock"
+    if [[ ! -f "$LOCK_FILE" ]]; then
+        touch "$LOCK_FILE"
+        ~/eww/target/release/eww open top
+    else
+        ~/eww/target/release/eww close top
+        rm $LOCK_FILE
+    fi
 }
 
 powermenu(){
@@ -40,5 +47,5 @@ fi
 }
 
 check_daemon && [ "$1" = "powermenu" ] && powermenu && exit
-check_daemon && [ "$1" = "topbar" ] && topbar && exit
+check_daemon && [ "$1" = "top" ] && top && exit
 check_daemon && [ "$1" = "overlay" ] && overlay && exit
