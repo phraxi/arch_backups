@@ -42,6 +42,7 @@ materia-gtk-theme
 mesa
 moreutils
 nano
+nautilus
 neofetch
 networkmanager
 nordic-theme
