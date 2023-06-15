@@ -1,0 +1,56 @@
+#! /bin/bash
+
+#path to wallpaper folder
+bg_folder_path="/home/hodes/wallpapers/bg_images"
+current_bg="/home/hodes/wallpapers/current.txt"
+
+#initializes ~/wallpapers/current.txt wich holds 
+#the path tho the current bg_image
+set_current(){
+    # Check if the file exists in the folder
+    if ! [ -e "$bg_folder_path/$1" ]; then
+        echo "The file $1 does not exist in the folder."
+        exit 1 
+    else
+        #path of image    
+        local bg_image_path="$bg_folder_path/$1"
+        echo bg_image_path
+        #write file that holds the path of the current bg
+        touch "$current_bg"
+        echo "$bg_image_path" > "$current_bg"
+        load_bg
+    fi
+}
+
+#loads the path of current.txt and sets bg + colors
+load_bg(){ 
+    #set bg witch hyprpaper 
+    hyprctl hyprpaper unload all
+    hyprctl hyprpaper preload $(cat $current_bg)   
+    hyprctl hyprpaper wallpaper "eDP-1, $(cat $current_bg)"
+    #auto adjust color schemas with pywal
+    wal -i "$(cat $current_bg)"
+}
+
+get_pos(){
+    files=($(ls -1 "$bg_folder_path"))
+    #echo "current bg: $(cat $current_bg)"
+    for ((i=0; i<${#files[@]}; i++)); do
+        if [[ "$bg_folder_path/${files[$i]}" = "$(cat $current_bg)" ]]; then
+            pos=$((i+1))
+            echo "$pos"
+            return "$pos"
+        fi
+    #echo "${files[$i]}"
+    done
+}
+
+change_bg(){
+    position=$(get_pos)
+    echo "$position"
+}
+
+[[ "$1" == "set_current" ]] && set_current "$2" && exit
+[[ "$1" == "get_pos" ]] && get_pos && exit
+[[ "$1" == "change_bg" ]] && change_bg && exit
+[[ "$1" == "load_bg" ]] && load_bg && exit
