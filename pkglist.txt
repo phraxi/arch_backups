@@ -41,6 +41,7 @@ mate-themes
 materia-gtk-theme
 mesa
 moreutils
+mupdf
 nano
 nautilus
 neofetch
