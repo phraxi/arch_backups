@@ -16,6 +16,7 @@ dropbox
 dunst
 efibootmgr
 evince
+feh
 firefox
 gimp
 git
