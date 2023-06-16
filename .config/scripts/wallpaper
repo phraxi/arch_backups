@@ -30,6 +30,7 @@ load_bg(){
     hyprctl hyprpaper wallpaper "eDP-1, $(cat $current_bg)"
     #auto adjust color schemas with pywal
     wal -i "$(cat $current_bg)"
+    pywalfox update
 }
 
 #returns the position of the file in the folder
