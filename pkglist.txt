@@ -59,7 +59,6 @@ pulseaudio-bluetooth
 python
 python-pip
 python-pywal
-python-pywalfox
 python-virtualenv
 qtile
 qtile-extras
