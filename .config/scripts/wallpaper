@@ -32,25 +32,75 @@ load_bg(){
     wal -i "$(cat $current_bg)"
 }
 
+#returns the position of the file in the folder
 get_pos(){
+    
     files=($(ls -1 "$bg_folder_path"))
-    #echo "current bg: $(cat $current_bg)"
     for ((i=0; i<${#files[@]}; i++)); do
         if [[ "$bg_folder_path/${files[$i]}" = "$(cat $current_bg)" ]]; then
-            pos=$((i+1))
+            pos=$i
             echo "$pos"
             return "$pos"
         fi
-    #echo "${files[$i]}"
     done
 }
 
-change_bg(){
-    position=$(get_pos)
-    echo "$position"
+#sets the bg to the next file in the folder 
+next_bg(){
+    files=($(ls -1 "$bg_folder_path"))
+    pos=$(get_pos)
+    next_pos=$(($pos + 1))
+    count_img=$(find $bg_folder_path -type f | wc -l)
+    #if the last image of the folder is reached, a call of next_bg
+    #wiill set the first element of the folder
+    if [[ $pos == $(($count_img - 1)) ]]; then
+        echo "$bg_folder_path/${files[0]}" > "$current_bg"
+        load_bg
+    else
+        # set the next bg_image
+        echo "$bg_folder_path/${files[$next_pos]}" > "$current_bg"
+        load_bg
+    fi
+} 
+
+
+prev_bg(){
+    files=($(ls -1 "$bg_folder_path"))
+    pos=$(get_pos)
+    prev_pos=$(($pos - 1))
+    count_img=$(find $bg_folder_path -type f | wc -l)
+    # if called on the first image of the folder, prev_bg will return the last
+    # image of the folder
+    if [[ $pos == 0 ]]; then
+        echo "$bg_folder_path/${files[$(($count_img - 1))]}" > "$current_bg"
+        load_bg
+    else
+        # set the previos bg_image
+        echo "$bg_folder_path/${files[$prev_pos]}" > "$current_bg"
+        load_bg   
+    fi
+}
+
+# since you cant use bash scripts in hyprpaper.conf, i wrote a function that
+# automatically inserts the path to the current bg_image into the first 2 lines
+# of the hyprpaper.conf file at hyprland startup 
+edit_hyprpaper(){
+    hyprpaper_path="/home/hodes/.config/hypr/hyprpaper.conf"
+  
+    # Temporarily store the remaining lines of hyprpaper.conf file
+    tmp=$(mktemp)
+
+    # Write the new content to the first line of hyprpaper.conf file
+    echo "preload = $(cat $current_bg)" > "$tmp"
+    echo "wallpaper = eDP-1, $(cat $current_bg)" >> "$tmp"
+    tail -n +3 "$hyprpaper_path" >> $tmp
+    # Append the remaining lines back to hyprpaper.conf file
+    mv "$tmp" "$hyprpaper_path"
 }
 
 [[ "$1" == "set_current" ]] && set_current "$2" && exit
 [[ "$1" == "get_pos" ]] && get_pos && exit
-[[ "$1" == "change_bg" ]] && change_bg && exit
+[[ "$1" == "next_bg" ]] && next_bg && exit
 [[ "$1" == "load_bg" ]] && load_bg && exit
+[[ "$1" == "prev_bg" ]] && prev_bg && exit
+[[ "$1" == "edit_hyprpaper" ]] && edit_hyprpaper && exit
