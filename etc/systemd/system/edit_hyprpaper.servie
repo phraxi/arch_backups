@@ -1,0 +1,8 @@
+[Unit]
+Description=Script to set  hyprpaper.conf to current bg at system start
+
+[Service]
+ExecStart=/usr/bin/edit_hyprpaper.sh
+
+[Install]
+WantedBy=multi-user.target
