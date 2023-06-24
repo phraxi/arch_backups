@@ -7,6 +7,7 @@ base
 base-devel
 bluez
 bluez-utils
+borg
 breeze-gtk
 candy-icons-git
 code
@@ -57,9 +58,16 @@ pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
 python
+python-appdirs
+python-dateutil
+python-llfuse
+python-peewee
 python-pip
+python-psutil
+python-pyqt5
 python-pywal
 python-pywalfox
+python-secretstorage
 python-virtualenv
 qtile
 qtile-extras
