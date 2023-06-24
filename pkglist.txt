@@ -38,6 +38,7 @@ linux-lts
 linux-lts-headers
 linux-zen
 linux-zen-headers
+lostfiles
 lxappearance
 mate-themes
 materia-gtk-theme
