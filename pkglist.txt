@@ -19,10 +19,12 @@ efibootmgr
 evince
 feh
 firefox
+gendesk
 gimp
 git
 gnome-keyring
 gnome-themes-extra
+go
 grub
 htop
 hyprland
