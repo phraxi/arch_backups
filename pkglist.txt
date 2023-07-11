@@ -73,7 +73,6 @@ speedtest-cli
 starship
 sudo
 sweet-gtk-theme-dark
-teams
 texlive-basic
 texlive-bibtexextra
 texlive-fontsextra
