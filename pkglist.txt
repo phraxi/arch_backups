@@ -66,6 +66,7 @@ python-pywalfox
 python-virtualenv
 qtile
 qtile-extras
+qutebrowser
 ranger
 rofi
 socat
