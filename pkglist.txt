@@ -95,6 +95,7 @@ ttf-nerd-fonts-symbols-mono
 vertex-themes
 vi
 virtualbox
+virtualbox-guest-utils
 vorta
 waybar
 wireguard-tools
