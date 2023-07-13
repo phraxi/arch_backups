@@ -10,6 +10,7 @@ bluez-utils
 breeze-gtk
 btop
 candy-icons-git
+cmake
 code
 deepin-gtk-theme
 deepin-icon-theme
@@ -25,6 +26,7 @@ gimp
 git
 gnome-keyring
 gnome-themes-extra
+grim
 grub
 htop
 hyprland
@@ -103,6 +105,7 @@ wireguard-tools
 wireless_tools
 xcursor-arch-simple
 xdg-desktop-portal-hyprland
+xdg-desktop-portal-wlr
 xf86-video-vesa
 xfce-theme-greybird
 xorg-bdftopcf
