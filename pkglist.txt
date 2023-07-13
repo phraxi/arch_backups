@@ -10,6 +10,7 @@ bluez-utils
 breeze-gtk
 btop
 candy-icons-git
+chatgpt-shell-cli
 cmake
 code
 deepin-gtk-theme
