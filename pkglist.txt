@@ -31,7 +31,6 @@ htop
 hyprland
 hyprpaper
 ifstat
-imv
 iwd
 jq
 libreoffice-still
