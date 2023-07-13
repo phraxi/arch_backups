@@ -72,6 +72,7 @@ qtile-extras
 qutebrowser
 ranger
 rofi
+slurp
 socat
 speedtest-cli
 starship
