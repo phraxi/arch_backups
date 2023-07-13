@@ -21,7 +21,6 @@ efibootmgr
 evince
 feh
 firefox
-flameshot
 gimp
 git
 gnome-keyring
