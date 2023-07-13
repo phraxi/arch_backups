@@ -51,7 +51,6 @@ nano
 nautilus
 neofetch
 networkmanager
-nitrogen
 nordic-theme
 numix-gtk-theme-git
 oxygen-cursors
