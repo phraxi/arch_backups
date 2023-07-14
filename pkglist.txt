@@ -155,4 +155,5 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 yay
+zenity
 zuki-themes-git
