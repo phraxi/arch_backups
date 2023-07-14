@@ -53,6 +53,7 @@ neofetch
 networkmanager
 nordic-theme
 numix-gtk-theme-git
+openvpn
 oxygen-cursors
 pcmanfm
 picom
