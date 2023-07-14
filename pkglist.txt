@@ -51,6 +51,7 @@ nano
 nautilus
 neofetch
 networkmanager
+networkmanager-openvpn
 nordic-theme
 numix-gtk-theme-git
 openvpn
