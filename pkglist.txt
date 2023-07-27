@@ -33,7 +33,6 @@ hyprpaper
 ifstat
 iwd
 jq
-languagetool
 libreoffice-still
 linux
 linux-firmware
