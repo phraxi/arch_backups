@@ -5,6 +5,7 @@ amd-ucode
 arc-solid-gtk-theme
 base
 base-devel
+blueman
 bluez
 bluez-utils
 breeze-gtk
