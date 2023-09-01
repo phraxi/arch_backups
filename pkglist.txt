@@ -106,6 +106,7 @@ virtualbox
 virtualbox-guest-iso
 vorta
 waybar
+wine
 wireguard-tools
 wireless_tools
 xcursor-arch-simple
