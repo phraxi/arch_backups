@@ -112,7 +112,6 @@ vorta
 vulkan-radeon
 waybar
 wine
-wine-mono
 wireguard-tools
 wireless_tools
 xcursor-arch-simple
