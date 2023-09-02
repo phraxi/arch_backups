@@ -111,7 +111,6 @@ virtualbox-guest-iso
 vorta
 vulkan-radeon
 waybar
-wine
 wireguard-tools
 wireless_tools
 xcursor-arch-simple
