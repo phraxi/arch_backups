@@ -82,6 +82,7 @@ rofi
 slurp
 socat
 speedtest-cli
+sqlmap
 starship
 sudo
 sweet-gtk-theme-dark
