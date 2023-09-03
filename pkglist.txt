@@ -51,6 +51,7 @@ lxappearance
 mate-themes
 materia-gtk-theme
 mesa
+metasploit
 moreutils
 nano
 nautilus
