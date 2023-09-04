@@ -58,7 +58,6 @@ nautilus
 neofetch
 networkmanager
 networkmanager-openvpn
-nmap
 nordic-theme
 numix-gtk-theme-git
 openvpn
@@ -169,4 +168,5 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 yay
+zenmap
 zuki-themes-git
