@@ -168,5 +168,4 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 yay
-zenmap
 zuki-themes-git
