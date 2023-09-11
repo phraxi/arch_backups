@@ -3,6 +3,7 @@ alacritty
 alsa-utils
 amd-ucode
 arc-solid-gtk-theme
+at
 bandit
 base
 base-devel
