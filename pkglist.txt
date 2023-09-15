@@ -28,6 +28,7 @@ gimp
 git
 gnome-keyring
 gnome-themes-extra
+go
 grim
 grub
 htop
@@ -52,6 +53,7 @@ lxappearance
 mate-themes
 materia-gtk-theme
 mesa
+meson
 metasploit
 moreutils
 nano
@@ -82,6 +84,7 @@ qtile-extras
 qutebrowser
 ranger
 rofi
+sassc
 slurp
 socat
 speedtest-cli
