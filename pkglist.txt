@@ -67,7 +67,6 @@ numix-gtk-theme-git
 openvpn
 oxygen-cursors
 pcmanfm
-pdftk
 picom
 pipewire
 powertop
