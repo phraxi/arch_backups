@@ -109,6 +109,7 @@ texlive-pstricks
 texlive-publishers
 texmaker
 tlp
+ttf-liberation
 ttf-mononoki-nerd
 ttf-nerd-fonts-symbols
 ttf-nerd-fonts-symbols-mono
