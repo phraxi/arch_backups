@@ -30,6 +30,7 @@ git
 gnome-keyring
 gnome-themes-extra
 go
+google-chrome
 grim
 grub
 htop
@@ -109,7 +110,6 @@ texlive-pstricks
 texlive-publishers
 texmaker
 tlp
-ttf-liberation
 ttf-mononoki-nerd
 ttf-nerd-fonts-symbols
 ttf-nerd-fonts-symbols-mono
