@@ -82,6 +82,8 @@ python-pip
 python-pywal
 python-pywalfox
 python-virtualenv
+qt6-svg
+qt6-tools
 qtile
 qtile-extras
 qutebrowser
