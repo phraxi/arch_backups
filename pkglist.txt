@@ -82,8 +82,6 @@ python-pip
 python-pywal
 python-pywalfox
 python-virtualenv
-qt5-quickcontrols2
-qt5-svg
 qt6-svg
 qt6-tools
 qtile
@@ -91,6 +89,7 @@ qtile-extras
 qutebrowser
 ranger
 rofi
+rpi-imager
 sassc
 slurp
 socat
