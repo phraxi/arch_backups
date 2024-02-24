@@ -80,7 +80,6 @@ python
 python-beautifulsoup4
 python-pip
 python-pywal
-python-pywalfox
 python-virtualenv
 qt6-svg
 qt6-tools
