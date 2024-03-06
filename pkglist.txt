@@ -176,4 +176,5 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 yay
+yay-debug
 zuki-themes-git
