@@ -76,6 +76,8 @@ pulseaudio-alsa
 pulseaudio-bluetooth
 python
 python-beautifulsoup4
+python-build
+python-installer
 python-pip
 python-pywal
 python-pywalfox
@@ -176,5 +178,4 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 yay
-yay-debug
 zuki-themes-git
