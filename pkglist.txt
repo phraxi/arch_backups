@@ -8,6 +8,7 @@ bandit
 base
 base-devel
 biber
+blueman
 bluez
 bluez-utils
 breeze-gtk
