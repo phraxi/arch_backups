@@ -79,7 +79,6 @@ pulseaudio-bluetooth
 python
 python-beautifulsoup4
 python-conda-package-handling
-python-conda-package-handling-debug
 python-pip
 python-pywal
 python-pywalfox
