@@ -81,8 +81,11 @@ python-beautifulsoup4
 python-conda-package-handling
 python-conda-package-handling-debug
 python-pip
+python-pluggy
+python-pycosat
 python-pywal
 python-pywalfox
+python-ruamel-yaml
 python-virtualenv
 qt6-svg
 qt6-tools
