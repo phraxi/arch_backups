@@ -79,7 +79,6 @@ pulseaudio-bluetooth
 python
 python-beautifulsoup4
 python-pip
-python-pluggy
 python-pycosat
 python-pywal
 python-pywalfox
