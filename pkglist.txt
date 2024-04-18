@@ -78,7 +78,6 @@ pulseaudio-alsa
 pulseaudio-bluetooth
 python
 python-beautifulsoup4
-python-conda-package-handling-debug
 python-pip
 python-pluggy
 python-pycosat
