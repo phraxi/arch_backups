@@ -79,10 +79,8 @@ pulseaudio-bluetooth
 python
 python-beautifulsoup4
 python-pip
-python-pycosat
 python-pywal
 python-pywalfox
-python-ruamel-yaml
 python-virtualenv
 qt6-svg
 qt6-tools
