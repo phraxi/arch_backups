@@ -26,7 +26,6 @@ evince
 expac
 feh
 firefox
-fox
 gendesk
 gimp
 git
