@@ -97,7 +97,6 @@ speedtest-cli
 sqlmap
 starship
 sudo
-sweet-gtk-theme-dark
 texlive-basic
 texlive-bibtexextra
 texlive-fontsextra
