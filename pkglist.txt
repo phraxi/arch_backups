@@ -59,7 +59,6 @@ meson
 metasploit
 moreutils
 nano
-nautilus
 neofetch
 networkmanager
 networkmanager-openvpn
