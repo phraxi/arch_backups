@@ -21,6 +21,7 @@ deepin-icon-theme
 dropbox
 dunst
 dust
+e3
 efibootmgr
 evince
 expac
