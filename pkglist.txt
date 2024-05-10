@@ -22,7 +22,6 @@ dropbox
 dunst
 dust
 efibootmgr
-emacs
 evince
 expac
 feh
