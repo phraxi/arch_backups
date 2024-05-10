@@ -60,6 +60,7 @@ metasploit
 moreutils
 nano
 neofetch
+neovim
 networkmanager
 networkmanager-openvpn
 nmap
