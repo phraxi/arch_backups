@@ -117,6 +117,7 @@ ttf-nerd-fonts-symbols
 ttf-nerd-fonts-symbols-mono
 vertex-themes
 vi
+vim
 virtualbox
 virtualbox-guest-iso
 vorta
