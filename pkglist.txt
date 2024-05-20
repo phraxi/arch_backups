@@ -58,6 +58,7 @@ mesa
 meson
 metasploit
 moreutils
+mpv
 nano
 neofetch
 neovim
