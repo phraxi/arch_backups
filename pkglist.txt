@@ -24,7 +24,6 @@ dust
 efibootmgr
 evince
 expac
-feh
 firefox
 gendesk
 gimp
