@@ -123,6 +123,7 @@ virtualbox-guest-iso
 vorta
 vulkan-radeon
 waybar
+wf-recorder
 wireguard-tools
 wireless_tools
 xcursor-arch-simple
