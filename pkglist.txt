@@ -50,7 +50,6 @@ linux-firmware
 linux-headers
 linux-lts
 linux-lts-headers
-linux-zen-headers
 lostfiles
 lxappearance
 mate-themes
