@@ -19,6 +19,7 @@ cmake
 code
 deepin-gtk-theme
 deepin-icon-theme
+dirbuster
 dropbox
 dunst
 dust
