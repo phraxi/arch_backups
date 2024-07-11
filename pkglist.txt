@@ -50,6 +50,8 @@ libreoffice-still
 linux
 linux-firmware
 linux-headers
+linux-lts
+linux-lts-headers
 lostfiles
 lxappearance
 mate-themes
