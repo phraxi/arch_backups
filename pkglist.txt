@@ -81,7 +81,6 @@ pulseaudio-bluetooth
 python
 python-beautifulsoup4
 python-pip
-python-pipx
 python-pywal
 python-pywalfox
 python-virtualenv
