@@ -80,14 +80,10 @@ pulseaudio-alsa
 pulseaudio-bluetooth
 python
 python-beautifulsoup4
-python-chardet
-python-future
 python-pip
-python-pycurl
-python-pyparsing
+python-pipx
 python-pywal
 python-pywalfox
-python-sphinx
 python-virtualenv
 qt6-svg
 qt6-tools
