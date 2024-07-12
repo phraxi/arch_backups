@@ -20,7 +20,6 @@ code
 deepin-gtk-theme
 deepin-icon-theme
 dirbuster
-docker
 dropbox
 dunst
 dust
@@ -129,6 +128,7 @@ waybar
 wf-recorder
 wireguard-tools
 wireless_tools
+wordlists
 xcursor-arch-simple
 xdg-desktop-portal-hyprland
 xf86-video-amdgpu
