@@ -66,6 +66,7 @@ neofetch
 neovim
 networkmanager
 networkmanager-openvpn
+nikto
 nmap
 nordic-theme
 numix-gtk-theme-git
