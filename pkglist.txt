@@ -184,4 +184,5 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 yay
+zaproxy
 zuki-themes-git
