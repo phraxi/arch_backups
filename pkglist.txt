@@ -35,6 +35,7 @@ git
 gnome-keyring
 gnome-themes-extra
 go
+gradle
 grim
 grub
 htop
@@ -42,6 +43,7 @@ hyprland
 hyprpaper
 ifstat
 iwd
+jdk21-openjdk
 jq
 lib32-mesa
 lib32-vulkan-icd-loader
