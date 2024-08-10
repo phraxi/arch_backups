@@ -98,8 +98,6 @@ ranger
 rofi
 rpi-imager
 sassc
-ser-player
-ser-player-debug
 slurp
 socat
 speedtest-cli
