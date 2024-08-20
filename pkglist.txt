@@ -45,6 +45,7 @@ hyprpaper
 ifstat
 iwd
 jabref
+jdk-openjdk
 jdk8-openjdk
 jq
 lib32-mesa
