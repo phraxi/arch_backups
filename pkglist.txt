@@ -45,6 +45,7 @@ hyprpaper
 ifstat
 iwd
 jabref
+jdk8-openjdk
 jq
 lib32-mesa
 lib32-vulkan-icd-loader
