@@ -22,7 +22,6 @@ deepin-gtk-theme
 deepin-icon-theme
 dirbuster
 docker
-docker-buildx
 dropbox
 dunst
 dust
