@@ -59,6 +59,7 @@ lostfiles
 lxappearance
 mate-themes
 materia-gtk-theme
+maven
 mesa
 meson
 metasploit
