@@ -107,6 +107,7 @@ socat
 speedtest-cli
 sqlmap
 starship
+stow
 sudo
 texlive-basic
 texlive-bibtexextra
