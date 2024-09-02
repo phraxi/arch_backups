@@ -138,6 +138,7 @@ waybar
 wf-recorder
 wireguard-tools
 wireless_tools
+wlroots
 wordlists
 xcursor-arch-simple
 xdg-desktop-portal-hyprland
