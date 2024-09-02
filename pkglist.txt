@@ -40,7 +40,6 @@ go
 grim
 grub
 htop
-hyprland
 hyprpaper
 ifstat
 iwd
