@@ -141,6 +141,7 @@ wireless_tools
 wlroots
 wordlists
 xcursor-arch-simple
+xcursor-themes
 xdg-desktop-portal-hyprland
 xf86-video-amdgpu
 xf86-video-vesa
