@@ -109,6 +109,7 @@ speedtest-cli
 sqlmap
 starship
 stow
+sublime-text
 sudo
 texlive-basic
 texlive-bibtexextra
