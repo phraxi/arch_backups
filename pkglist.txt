@@ -126,7 +126,6 @@ texlive-pictures
 texlive-pstricks
 texlive-publishers
 texmaker
-texstudio
 tlp
 ttf-mononoki-nerd
 ttf-nerd-fonts-symbols
