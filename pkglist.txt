@@ -40,7 +40,6 @@ gnome-themes-extra
 go
 grim
 grub
-gummi
 htop
 hyprland
 hyprpaper
