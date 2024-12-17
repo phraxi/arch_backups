@@ -27,7 +27,6 @@ dropbox
 dunst
 dust
 efibootmgr
-enter-tex
 ethtool
 evince
 expac
