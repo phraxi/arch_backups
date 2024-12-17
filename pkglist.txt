@@ -118,7 +118,6 @@ texlive-fontsextra
 texlive-formatsextra
 texlive-games
 texlive-humanities
-texlive-langgerman
 texlive-latexextra
 texlive-mathscience
 texlive-music
