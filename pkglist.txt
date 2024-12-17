@@ -112,6 +112,7 @@ starship
 stow
 sublime-text
 sudo
+texmaker
 tlp
 ttf-mononoki-nerd
 ttf-nerd-fonts-symbols
