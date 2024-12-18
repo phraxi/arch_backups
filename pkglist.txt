@@ -113,7 +113,6 @@ stow
 sublime-text
 sudo
 texmaker
-texstudio
 tlp
 ttf-mononoki-nerd
 ttf-nerd-fonts-symbols
