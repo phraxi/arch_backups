@@ -102,6 +102,7 @@ qtile
 qtile-extras
 qutebrowser
 ranger
+reflector
 rofi
 rpi-imager
 sassc
