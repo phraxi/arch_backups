@@ -93,6 +93,7 @@ pulseaudio-bluetooth
 python
 python-beautifulsoup4
 python-pip
+python-pytest
 python-pywal
 python-pywalfox
 python-virtualenv
