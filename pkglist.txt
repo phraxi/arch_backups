@@ -38,6 +38,7 @@ git
 gnome-keyring
 gnome-themes-extra
 go
+google-chrome
 grim
 grub
 htop
