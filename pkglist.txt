@@ -38,6 +38,8 @@ git
 gnome-keyring
 gnome-themes-extra
 go
+gpmdp
+gpmdp-debug
 grim
 grub
 htop
