@@ -70,6 +70,7 @@ mesa
 meson
 metasploit
 moreutils
+mpd
 mpv
 nano
 neofetch
