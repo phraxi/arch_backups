@@ -1,6 +1,7 @@
 acpilight
 alacritty
 alsa-utils
+amberol
 amd-ucode
 arc-solid-gtk-theme
 at
