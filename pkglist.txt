@@ -4,6 +4,7 @@ alsa-utils
 amd-ucode
 arc-solid-gtk-theme
 at
+audiotube
 bandit
 base
 base-devel
@@ -39,7 +40,6 @@ gnome-keyring
 gnome-themes-extra
 go
 gpmdp
-gpmdp-debug
 grim
 grub
 htop
