@@ -188,5 +188,6 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 yay
+yt-dlp
 zaproxy
 zuki-themes-git
