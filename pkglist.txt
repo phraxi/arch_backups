@@ -9,7 +9,6 @@ base
 base-devel
 biber
 bind
-blanket
 blueman
 bluez
 bluez-utils
