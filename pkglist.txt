@@ -28,7 +28,6 @@ dropbox
 dunst
 dust
 efibootmgr
-electron34
 ethtool
 evince
 expac
@@ -89,7 +88,6 @@ pcmanfm
 pdftk
 picom
 pipewire
-pnpm
 powertop
 pulseaudio
 pulseaudio-alsa
@@ -191,6 +189,7 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 yay
+youtube-music
 yt-dlp
 zaproxy
 zuki-themes-git
