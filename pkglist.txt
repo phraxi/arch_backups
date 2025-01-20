@@ -4,7 +4,6 @@ alsa-utils
 amd-ucode
 arc-solid-gtk-theme
 at
-audiotube
 bandit
 base
 base-devel
