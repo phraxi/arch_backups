@@ -28,6 +28,7 @@ dropbox
 dunst
 dust
 efibootmgr
+electron34
 ethtool
 evince
 expac
@@ -88,6 +89,7 @@ pcmanfm
 pdftk
 picom
 pipewire
+pnpm
 powertop
 pulseaudio
 pulseaudio-alsa
