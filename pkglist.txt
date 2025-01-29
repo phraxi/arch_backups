@@ -31,6 +31,7 @@ efibootmgr
 ethtool
 evince
 expac
+fcitx5
 feh
 firefox
 gendesk
@@ -45,6 +46,7 @@ grub
 htop
 hyprland
 hyprpaper
+ibus
 ifstat
 iwd
 jabref
