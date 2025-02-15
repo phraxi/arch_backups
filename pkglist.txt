@@ -109,6 +109,7 @@ ranger
 rofi
 rpi-imager
 sassc
+setconf
 slurp
 socat
 speedtest-cli
