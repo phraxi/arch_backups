@@ -36,6 +36,7 @@ firefox
 gendesk
 gimp
 git
+gnome-disk-utility
 gnome-keyring
 gnome-themes-extra
 go
