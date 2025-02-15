@@ -46,6 +46,7 @@ htop
 hyprland
 hyprpaper
 ifstat
+isoimagewriter
 iwd
 jabref
 jdk-openjdk
