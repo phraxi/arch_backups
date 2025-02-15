@@ -109,7 +109,6 @@ ranger
 rofi
 rpi-imager
 sassc
-setconf
 slurp
 socat
 speedtest-cli
@@ -124,6 +123,8 @@ tlp
 ttf-mononoki-nerd
 ttf-nerd-fonts-symbols
 ttf-nerd-fonts-symbols-mono
+usbimager
+usbimager-debug
 vertex-themes
 vi
 vim
