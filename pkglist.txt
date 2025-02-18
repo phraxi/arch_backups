@@ -106,6 +106,7 @@ qtile
 qtile-extras
 qutebrowser
 ranger
+rclone
 rofi
 rpi-imager
 sassc
