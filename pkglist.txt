@@ -24,7 +24,6 @@ deepin-icon-theme
 dirbuster
 docker
 docker-buildx
-dropbox
 dunst
 dust
 efibootmgr
