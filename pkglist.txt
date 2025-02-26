@@ -95,6 +95,7 @@ pulseaudio-alsa
 pulseaudio-bluetooth
 python
 python-beautifulsoup4
+python-matplotlib
 python-pip
 python-pytest
 python-pywal
