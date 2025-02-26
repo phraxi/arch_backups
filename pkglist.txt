@@ -120,6 +120,7 @@ sublime-text
 sudo
 texmaker
 texstudio
+tk
 tlp
 ttf-mononoki-nerd
 ttf-nerd-fonts-symbols
