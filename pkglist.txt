@@ -28,8 +28,6 @@ dropbox
 dunst
 dust
 efibootmgr
-electron35-bin
-electron35-bin-debug
 ethtool
 evince
 expac
