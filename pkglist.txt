@@ -136,7 +136,7 @@ waybar
 wf-recorder
 wireguard-tools
 wireless_tools
-wlroots
+wlroots0.18
 wordlists
 xcursor-arch-simple
 xcursor-themes
