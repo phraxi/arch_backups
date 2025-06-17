@@ -122,6 +122,7 @@ texmaker
 texstudio
 tk
 tlp
+trash-cli
 ttf-mononoki-nerd
 ttf-nerd-fonts-symbols
 ttf-nerd-fonts-symbols-mono
