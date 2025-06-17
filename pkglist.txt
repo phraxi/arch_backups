@@ -33,6 +33,7 @@ evince
 expac
 feh
 firefox
+gdb
 gendesk
 gimp
 git
@@ -83,6 +84,7 @@ nmap
 nordic-theme
 numix-gtk-theme-git
 nwg-look
+openssl-1.1
 openvpn
 oxygen-cursors
 pcmanfm
@@ -192,6 +194,7 @@ xorg-xwayland
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
+xterm
 yay
 yt-dlp
 zaproxy
