@@ -33,7 +33,6 @@ evince
 expac
 feh
 firefox
-gdb
 gendesk
 gimp
 git
@@ -60,7 +59,6 @@ lib32-vulkan-radeon
 libreoffice-still
 libxcrypt-compat
 linux
-linux-firmware
 linux-headers
 linux-lts
 linux-lts-headers
@@ -84,7 +82,6 @@ nmap
 nordic-theme
 numix-gtk-theme-git
 nwg-look
-openssl-1.1
 openvpn
 oxygen-cursors
 pcmanfm
@@ -194,7 +191,6 @@ xorg-xwayland
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
-xterm
 yay
 yt-dlp
 zaproxy
