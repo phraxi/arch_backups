@@ -59,6 +59,7 @@ lib32-vulkan-radeon
 libreoffice-still
 libxcrypt-compat
 linux
+linux-firmware
 linux-headers
 linux-lts
 linux-lts-headers
