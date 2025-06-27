@@ -24,6 +24,7 @@ deepin-icon-theme
 dirbuster
 docker
 docker-buildx
+dolphin
 dropbox
 dunst
 dust
