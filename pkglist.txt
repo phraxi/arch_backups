@@ -87,6 +87,7 @@ nwg-look
 openvpn
 oxygen-cursors
 pcmanfm
+pdfgrep
 pdftk
 picom
 pipewire
