@@ -17,6 +17,8 @@ breeze-gtk
 btop
 burpsuite
 candy-icons-git
+chatgpt-desktop-bin
+chatgpt-desktop-bin-debug
 cmake
 code
 deepin-gtk-theme
@@ -57,9 +59,7 @@ kile
 lib32-mesa
 lib32-vulkan-icd-loader
 lib32-vulkan-radeon
-libayatana-appindicator
 libreoffice-still
-libsoup
 libxcrypt-compat
 linux
 linux-firmware
@@ -138,7 +138,6 @@ virtualbox-guest-iso
 vorta
 vulkan-radeon
 waybar
-webkit2gtk
 wf-recorder
 wget
 wireguard-tools
