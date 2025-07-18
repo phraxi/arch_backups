@@ -3,6 +3,7 @@ alacritty
 alsa-utils
 amberol
 amd-ucode
+android-udev
 arc-solid-gtk-theme
 at
 bandit
@@ -18,7 +19,6 @@ btop
 burpsuite
 candy-icons-git
 chatgpt-desktop-bin
-chatgpt-desktop-bin-debug
 cmake
 code
 deepin-gtk-theme
