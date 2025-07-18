@@ -21,6 +21,7 @@ candy-icons-git
 chatgpt-desktop-bin
 cmake
 code
+cpio
 deepin-gtk-theme
 deepin-icon-theme
 dirbuster
@@ -61,6 +62,7 @@ lib32-vulkan-icd-loader
 lib32-vulkan-radeon
 libreoffice-still
 libxcrypt-compat
+libxml2-legacy
 linux
 linux-firmware
 linux-headers
