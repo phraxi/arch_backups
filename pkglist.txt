@@ -76,6 +76,7 @@ metasploit
 moreutils
 mpv
 nano
+nautilus
 neofetch
 neovim
 networkmanager
