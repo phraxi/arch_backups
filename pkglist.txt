@@ -4,8 +4,8 @@ alsa-utils
 amberol
 amd-ucode
 android-udev
+ani-cli
 arc-solid-gtk-theme
-aria2
 at
 bandit
 base
@@ -37,7 +37,6 @@ evince
 expac
 feh
 firefox
-fzf
 gendesk
 gimp
 git
