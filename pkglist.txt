@@ -19,7 +19,6 @@ breeze-gtk
 btop
 burpsuite
 candy-icons-git
-chatgpt-desktop-bin
 cmake
 code
 deepin-gtk-theme
