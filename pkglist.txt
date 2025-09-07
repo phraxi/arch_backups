@@ -47,6 +47,7 @@ go
 gpmdp
 grim
 grub
+gvfs-mtp
 htop
 hyprland
 hyprpaper
