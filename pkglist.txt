@@ -79,6 +79,7 @@ meson
 metasploit
 moreutils
 mpv
+mtpfs
 nano
 nautilus
 neofetch
