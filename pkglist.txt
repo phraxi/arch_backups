@@ -3,6 +3,7 @@ alacritty
 alsa-utils
 amberol
 amd-ucode
+android-file-transfer
 android-tools
 android-udev
 ani-cli
