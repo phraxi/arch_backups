@@ -21,6 +21,7 @@ breeze-gtk
 btop
 burpsuite
 candy-icons-git
+ccache
 cmake
 code
 deepin-gtk-theme
