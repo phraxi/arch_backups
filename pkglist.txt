@@ -84,6 +84,7 @@ mpv
 mtpfs
 nano
 nautilus
+ncdu
 neofetch
 neovim
 networkmanager
