@@ -14,6 +14,7 @@ base
 base-devel
 biber
 bind
+bleachbit
 blueman
 bluez
 bluez-utils
