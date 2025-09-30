@@ -77,7 +77,6 @@ materia-gtk-theme
 maven
 mesa
 meson
-metasploit
 moreutils
 mpv
 mtpfs
