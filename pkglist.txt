@@ -20,7 +20,6 @@ bluez
 bluez-utils
 breeze-gtk
 btop
-burpsuite
 candy-icons-git
 cmake
 code
