@@ -151,7 +151,6 @@ wget
 wireguard-tools
 wireless_tools
 wlroots0.18
-wordlists
 xcursor-arch-simple
 xcursor-themes
 xdg-desktop-portal-hyprland
