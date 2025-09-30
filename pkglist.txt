@@ -39,7 +39,6 @@ expac
 feh
 firefox
 gendesk
-gimp
 git
 gnome-disk-utility
 gnome-keyring
