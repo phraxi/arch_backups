@@ -40,6 +40,7 @@ feh
 firefox
 gendesk
 git
+gnome-common
 gnome-disk-utility
 gnome-keyring
 gnome-themes-extra
@@ -52,6 +53,7 @@ htop
 hyprland
 hyprpaper
 ifstat
+intltool
 iwd
 jabref
 jdk-openjdk
