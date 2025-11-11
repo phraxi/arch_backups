@@ -48,6 +48,7 @@ go
 gpmdp
 grim
 grub
+gtk-engines-debug
 gvfs-mtp
 htop
 hyprland
