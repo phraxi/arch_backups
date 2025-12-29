@@ -25,9 +25,11 @@ cmake
 code
 deepin-gtk-theme
 deepin-icon-theme
+dejagnu
 dirbuster
 docker
 docker-buildx
+doxygen
 drawing
 dropbox
 dunst
@@ -36,6 +38,7 @@ efibootmgr
 ethtool
 evince
 expac
+expect
 feh
 firefox
 gendesk
@@ -48,12 +51,12 @@ go
 gpmdp
 grim
 grub
-gtk-engine-murrine-debug
 gvfs-mtp
 htop
 hyprland
 hyprpaper
 ifstat
+inetutils
 intltool
 iwd
 jabref
