@@ -28,6 +28,7 @@ deepin-icon-theme
 dirbuster
 docker
 docker-buildx
+doxygen
 drawing
 dropbox
 dunst
