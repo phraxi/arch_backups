@@ -110,6 +110,7 @@ python-beautifulsoup4
 python-matplotlib
 python-pip
 python-pytest
+python-pywal
 python-pywalfox
 python-virtualenv
 qt6-svg
