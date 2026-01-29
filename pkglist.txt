@@ -21,6 +21,7 @@ bluez-utils
 breeze-gtk
 btop
 candy-icons-git
+caps
 cmake
 code
 deepin-gtk-theme
