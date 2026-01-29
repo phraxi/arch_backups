@@ -23,6 +23,7 @@ btop
 candy-icons-git
 cmake
 code
+cups
 deepin-gtk-theme
 deepin-icon-theme
 dirbuster
