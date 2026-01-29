@@ -24,6 +24,7 @@ candy-icons-git
 cmake
 code
 cups
+cups-pdf
 deepin-gtk-theme
 deepin-icon-theme
 dirbuster
