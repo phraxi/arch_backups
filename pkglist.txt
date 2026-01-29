@@ -94,6 +94,7 @@ networkmanager-openvpn
 nikto
 nmap
 nordic-theme
+npm
 numix-gtk-theme-git
 nwg-look
 openvpn
