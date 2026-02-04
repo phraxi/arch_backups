@@ -58,7 +58,6 @@ hyprpaper
 ifstat
 intltool
 iwd
-jabref
 jdk-openjdk
 jdk8-openjdk
 jq
