@@ -19,7 +19,6 @@ blueman
 bluez
 bluez-utils
 breeze-gtk
-bridge-utils-debug
 btop
 candy-icons-git
 cmake
@@ -31,6 +30,7 @@ deepin-icon-theme
 dirbuster
 docker
 docker-buildx
+docker-compose
 drawing
 dropbox
 dunst
@@ -97,7 +97,6 @@ nordic-theme
 npm
 numix-gtk-theme-git
 nwg-look
-openssl-1.1-debug
 openvpn
 orca
 oxygen-cursors
