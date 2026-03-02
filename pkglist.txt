@@ -7,7 +7,6 @@ android-file-transfer
 android-tools
 android-udev
 ani-cli
-arc-solid-gtk-theme
 at
 bandit
 base
@@ -95,7 +94,6 @@ nikto
 nmap
 nordic-theme
 npm
-numix-gtk-theme-git
 nwg-look
 openvpn
 orca
