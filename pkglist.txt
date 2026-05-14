@@ -56,7 +56,6 @@ htop
 hyprland
 hyprpaper
 ifstat
-inkscape
 intltool
 iwd
 jdk-openjdk
