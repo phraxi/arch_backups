@@ -55,6 +55,7 @@ gvfs-mtp
 htop
 hyprland
 hyprpaper
+hyprpicker
 ifstat
 intltool
 iwd
