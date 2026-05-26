@@ -53,6 +53,7 @@ grim
 grub
 gvfs-mtp
 htop
+hypridle
 hyprland
 hyprpaper
 hyprpicker
